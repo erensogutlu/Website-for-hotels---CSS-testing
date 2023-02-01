@@ -1,0 +1,46 @@
+/* https://github.com/erensogutlu */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px;
+    margin: 0 3px;
+  }
+
+  .teams img {
+    width: 70%;
+  }
+
+  .content {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-items > div {
+    padding: 10px;
+  }
+
+  .flex-columns .column {
+    flex: 100% !important;
+  }
+
+  .flex-grid .column {
+    flex: 50%;
+  }
+}
+
+/* https://github.com/erensogutlu */
